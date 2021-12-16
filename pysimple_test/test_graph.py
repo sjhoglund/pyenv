@@ -20,6 +20,7 @@ from pid_settings import *
 
 #sg.theme_previewer()
 sg.theme('Dark2')   # Add a touch of color
+w, h = sg.Window.get_screen_size()
 pid = PID(pid_settings["Kp"],pid_settings["Ki"],pid_settings["Kd"],setpoint=pid_settings["setpoint"],output_limits=pid_settings["output_limits"],auto_mode=pid_settings["auto_mode"],proportional_on_measurement=pid_settings["proportional_on_measurement"])
 
 sample_time = 200
@@ -565,7 +566,10 @@ def updateMenu(graph, m, event):
 class mainMenu():
 
     # All the stuff inside your window.
-    layout = [  [sg.Graph(canvas_size=(1366,768),graph_bottom_left=(0,0),graph_top_right=(1366,768),key="graph", enable_events=True)] ]
+    #layout = [  [sg.Graph(canvas_size=(1366,768),graph_bottom_left=(0,0),graph_top_right=(1366,768),key="graph", enable_events=True)] ]
+    ###########################
+    #importlayout = [  [sg.Graph(canvas_size=(w,h),graph_bottom_left=(0,0),graph_top_right=(w,h),key="graph", enable_events=True)] ]
+    layout = [  [sg.Graph(canvas_size=(1280,800),graph_bottom_left=(0,0),graph_top_right=(1280,800),key="graph", enable_events=True)] ]
     
     # Create the Window
     window = sg.Window('Brewery UI', layout, finalize=True)
