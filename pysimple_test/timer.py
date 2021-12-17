@@ -6,7 +6,7 @@ a_timer = {
             "size": 24,
             "color": "#20d338",
             "secondary_color": "#FF0000",
-            "location": (1292,745)
+            "location": (1192,745)
         },
         "start_time": 0,
         "hours": 0,

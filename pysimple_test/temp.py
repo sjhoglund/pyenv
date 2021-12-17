@@ -6,7 +6,7 @@ a_temp = {
             "text": "sans-serif",
             "size": 24,
             "color": "#20d338",
-            "location": (148,745)
+            "location": (123,745)
         },
         "elements": {
             "1": "e_bk_1",
@@ -39,7 +39,7 @@ a_temp = {
             "text": "sans-serif",
             "size": 24,
             "color": "#20d338",
-            "location": (483,745)
+            "location": (433,745)
         },
         "elements": {
             "1": "e_hlt_1",
@@ -72,7 +72,7 @@ a_temp = {
             "text": "sans-serif",
             "size": 24,
             "color": "#20d338",
-            "location": (631,745)
+            "location": (581,745)
         },
         "elements": {
             "1": "e_hlt_1",
@@ -105,7 +105,7 @@ a_temp = {
             "text": "sans-serif",
             "size": 24,
             "color": "#20d338",
-            "location": (982,745)
+            "location": (887,745)
         },
         "elements": {
             "1": "e_hlt_1",

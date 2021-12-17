@@ -582,7 +582,7 @@ class mainMenu():
         updateVolumeLev(graph, val)
     
     kettle_base = graph.DrawImage(data=kettles, location=(0,768))
-    logo = graph.DrawImage(data=logo, location=(1109,55))
+    logo = graph.DrawImage(data=logo, location=(1009,55))
     
     for val in a_timer:
         timer["{0}".format(val)] = graph.DrawText("{:02d}:{:02d}:{:02d}".format(a_timer[val]["hours"],a_timer[val]["minutes"],a_timer[val]["seconds"]), a_timer[val]["options"]["location"], font=(a_timer[val]["options"]["text"], a_timer[val]["options"]["size"]), color=a_timer[val]["options"]["color"], text_location=sg.TEXT_LOCATION_CENTER)
